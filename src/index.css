@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.bg-navy-900 {
+  background-color: #1a2942;
+}
+
+.bg-navy-800 {
+  background-color: #1e3a5c;
+}
+
+.bg-navy-700 {
+  background-color: #234876;
+}
+
+.text-navy-900 {
+  color: #1a2942;
+}
+
+.bg-gold-500 {
+  background-color: #d4af37;
+}
+
+.bg-gold-400 {
+  background-color: #e0bb40;
+}
+
+.text-gold-500 {
+  color: #d4af37;
+}
+
+.text-gold-400 {
+  color: #e0bb40;
+}
+
+.border-gold-500 {
+  border-color: #d4af37;
+}
+
+.focus\:border-gold-500:focus {
+  border-color: #d4af37;
+}
+
+.focus\:ring-gold-500:focus {
+  --tw-ring-color: #d4af37;
+}
+
+.hover\:bg-gold-400:hover {
+  background-color: #e0bb40;
+}
+
+.hover\:text-gold-400:hover {
+  color: #e0bb40;
+}
